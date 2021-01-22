@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+    text-align: end;
+    color: #ff4790;
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+h4{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+h5{
+    font-size: 20px;
+    color: rgb(77, 67, 67);
+    text-align: center;
+}
+p{
+    text-align: justify;
+    color: rgb(94, 95, 109);
+}
+.name-highlight{
+    color: rgb(44, 207, 199);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    float: left;
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,  rgb(44, 207, 199),rgb(92, 78, 134));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(201, 45, 141),rgb(99, 36, 45));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.link-button3{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(187, 91, 27),rgb(226, 161, 87));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+    margin: 35px 30px;
+}
+.about-area{
+    float: left;
+    padding-bottom: 130px;
+}
+
+.third-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+    border-radius: 20px;
+}
+
+.third-width img{
+    width: 100%;
+}
+#project{
+    text-align: center;
+    color: tomato;
+}
+span{
+    color: rgba(55, 43, 63, 0.836);
+}
+
+.project-area{
+    float: left;
+    padding-bottom: 90px;
+    
+}
+.project{
+    box-shadow: 10px 10px 40px rgb(187, 180, 180);
+    border-radius: 10px;
+    height: 90%;
+    padding: 5px;
+    background-color: white;
+}
+.work{
+    float: left;
+    background-image: url("shapes/qwe.png");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 60px 60px;
+    border-radius: 70px;
+    background-position: left;
+}
+.stk{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    width: 40%;
+    width: 40%;
+    padding-top: 20px;
+}
+.stay-connected{
+    
+}
+#mail{
+    color: rgb(38, 19, 53);
+    text-align: center;
+    font-size: 30px;
+}
+.icon{
+    
+    margin-left: 435px;
+    margin-right: 410px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 170px;
+}
+.icon img{
+    width: 70%;
+    height: 60%;
+}
+.icon-width{
+    float: left;
+    margin-left: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+nav{
+    height: 60px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 6px;
+}
+a.active,a:hover{
+    background: #ffc81d;
+    transition: .3s;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+.newsletter{
+    margin-bottom: 50px;
+}
+#news{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(99, 63, 230);
+}
+.email-box{
+    height: 40px;
+    justify-content: center;
+    display: flex;
+  }
+  .email-box i{
+    background: #ffc81d;
+    width: 40px;
+    line-height: 40px;
+  }
+  .tbox,.btn{
+    border: none;
+    outline: none;
+  }
+  .tbox{
+    width: 0px;
+    transition: 0.3s;
+  }
+  .email-box:hover > .tbox,.tbox:focus{
+    width: 250px;
+    padding: 0 10px;
+  }
+  .btn{
+    background: #ffc81d;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
